@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { MdShoppingBasket } from 'react-icons/md'
+import { MdShoppingCart } from 'react-icons/md'
 import { Container, Cart } from './styles'
 import Logo from '../../assets/images/logo.svg'
 
@@ -16,7 +16,7 @@ const Header = () => {
           <strong>Meu carrinho</strong>
           <span>3 items</span>
         </div>
-        <MdShoppingBasket size={36} color='#fff' />
+        <MdShoppingCart size={36} color='#fff' />
       </Cart>
     </Container>
   )
