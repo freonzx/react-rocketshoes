@@ -6,6 +6,14 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  h1 {
+    color: #333;
+  }
+
+  > div {
+    text-align: center;
+  }
+
   footer {
     margin-top: 30px;
     display: flex;
