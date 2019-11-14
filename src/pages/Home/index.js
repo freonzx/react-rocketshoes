@@ -7,7 +7,7 @@ import api from '../../services/api'
 import { formatPrice } from '../../utils/format'
 import * as CartActions from '../../store/modules/cart/actions'
 
-const Home = ({ addToCart, ammount }) => {
+const Home = ({ addToCartRequest, ammount }) => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Home = ({ addToCart, ammount }) => {
   }, [])
 
   const handleAddProduct = product => {
-    addToCart(product)
+    addToCartRequest(product.id)
   }
 
   return (
