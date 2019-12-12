@@ -2,6 +2,8 @@
 
 Project for learning purposes utilizing the Rocketseat Omnistack Bootcamp study material, the project portraits a shoes e-commerce. We consume an external API with product info and stock availability so the user can't buy more than available in stock.
 
+![demo](https://github.com/freonzx/react-rocketshoes/blob/master/src/assets/images/rocketshoes.gif?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,5 +30,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
